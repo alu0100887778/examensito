@@ -1,0 +1,13 @@
+- bundle gem cultivos
+
+- añadir al gemspec
+
+  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "guard"
+  spec.add_development_dependency "guard-rspec"
+  spec.add_development_dependency "guard-bundler"
+     y la direccion de mi repositorio publico
+
+- hacemos bundle exec guard init una vez editado el gemspec
+- iniciamos con bundle exec guard para que se realicen las tdd de forma automatica
+
